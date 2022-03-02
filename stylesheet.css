@@ -1,0 +1,102 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Avenir Next";
+}
+
+li {
+  list-style: none;
+}
+
+/* Write your code below */
+.header {
+  background-color: #26d0c9;
+  color: #fff;
+  height: 90px;
+}
+.header-logo {
+  font-size: 36px;
+  padding: 20px 40px;
+  float: left;
+}
+.header-list li {
+ float: left;
+ padding: 33px 20px;
+} 
+.copy-container {
+  padding: 100px 80px 50px 80px;
+}
+.copy-container h1 {
+  font-size: 140px;
+}
+.copy-container h2 {
+  font-size: 60px;
+}
+.copy-container span {
+  color: #ff4a4a;
+}
+.contents {
+  height: 500px;
+  padding: 50px 80px 50px 80px;
+}
+.contents h3 {
+  font-size: 28px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid;
+  border-color: #dee7ec;
+}
+.lesson-images {
+  float: left;
+  padding-top: 50px;
+  padding-left: 40px;
+}
+.lesson-images p {
+  padding-top: 30px;
+  font-size: 24px;
+}
+.contact-form {
+  padding: 50px 80px 100px 80px;
+}
+.contact-form h3 {
+  font-size: 28px;
+  border-bottom: 2px solid #dee7ec;
+  padding-bottom: 15px;
+  margin-bottom: 50px;
+}
+.contact-form p {
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+.contact-form input, textarea {
+  border: 1px solid #dee7ec;
+  padding: 20px;
+  margin-bottom: 30px;
+  width: 400px;
+}
+.btn input {
+  background-color: #dee7ec;
+  color: #889eab;
+  font-size: 18px;
+}
+.footer {
+  background-color: #2f5167;
+  color: #fff;
+  padding: 40px;
+  height: 120px;
+}
+.footer-logo {
+  font-size: 32px;
+  float: left;
+}
+.footer-list {
+  float: right;
+}
+.footer-list li {
+  padding: 10px;
+}
